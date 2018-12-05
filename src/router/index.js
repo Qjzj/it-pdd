@@ -7,7 +7,7 @@ import Search from '@/pages/Search/Search'
 import Recommend from '@/pages/Recommend/Recommend'
 import Me from '@/pages/Me/Me'
 
-import Hot from './../pages/Home/Children/Hot'
+import Hot from '../pages/Home/Children/Hot/Hot'
 import Dress from './../pages/Home/Children/Dress'
 import Elec from './../pages/Home/Children/Elec'
 import General from './../pages/Home/Children/General'

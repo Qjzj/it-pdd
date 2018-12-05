@@ -54,9 +54,9 @@
   }
 </script>
 
-<style scoped lang="stylus" rel="stylesheet/stylus">
+<style scoped lang="stylus" type="text/stylus" rel="stylesheet/stylus">
 .home
-  padding-top: 47px
+  padding-top: 43px
   height 100%
   .home-tab
     position fixed
