@@ -3,7 +3,7 @@
     <div class="hot-nav-content" v-if="homeNav.length > 0">
       <div class="nav-content-inner">
         <a class="nav-item" v-for="(item, index) in homeNav" :key="index">
-          <img :src="item.iconurl" alt="">
+          <img :src="'http://127.0.0.1:3000' + item.iconurl" alt="">
           <span>{{item.icontitle}}</span>
         </a>
       </div>

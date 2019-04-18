@@ -11,17 +11,17 @@ module.exports = {
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {
-      '/api': {  //使用"/api"来代替"http://f.apiplus.c"
-        target: 'http://127.0.0.1:3000', //源地址
-        changeOrigin: true, //改变源
-        pathRewrite: {
-          '^/api': '' //路径重写
+        '/api': {  //使用"/api"来代替"http://f.apiplus.c"
+          target: 'http://127.0.0.1:3000', //源地址
+          changeOrigin: true, //改变源
+          pathRewrite: {
+            '^/api': '' //路径重写
+          }
         }
-      }
     },
 
     // Various Dev Server settings
-    host: 'localhost', // can be overwritten by process.env.HOST
+    host: '127.0.0.1', // can be overwritten by process.env.HOST
     port: 8080, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
     autoOpenBrowser: true,
     errorOverlay: true,

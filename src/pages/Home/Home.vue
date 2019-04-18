@@ -16,7 +16,7 @@
   import Vue from 'vue'
   import LyTab from 'ly-tab'
 
-  Vue.use(LyTab)
+  Vue.use(LyTab);
   export default {
     data() {
       return {

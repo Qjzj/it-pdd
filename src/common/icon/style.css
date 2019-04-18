@@ -1,0 +1,137 @@
+@font-face {
+  font-family: 'pdd-icon';
+  src:  url('fonts/pdd-icon.eot?w1o7iu');
+  src:  url('fonts/pdd-icon.eot?w1o7iu#iefix') format('embedded-opentype'),
+    url('fonts/pdd-icon.ttf?w1o7iu') format('truetype'),
+    url('fonts/pdd-icon.woff?w1o7iu') format('woff'),
+    url('fonts/pdd-icon.svg?w1o7iu#pdd-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="pdd-"], [class*=" pdd-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'pdd-icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.pdd-add:before {
+  content: "\e900";
+}
+.pdd-addition_fill:before {
+  content: "\e901";
+}
+.pdd-ai-new:before {
+  content: "\e902";
+}
+.pdd-brush:before {
+  content: "\e903";
+}
+.pdd-brush_fill:before {
+  content: "\e904";
+}
+.pdd-camera:before {
+  content: "\e905";
+}
+.pdd-camera_fill:before {
+  content: "\e906";
+}
+.pdd-close:before {
+  content: "\e907";
+}
+.pdd-danhangshurukuang:before {
+  content: "\e908";
+}
+.pdd-decoration_fill:before {
+  content: "\e909";
+}
+.pdd-empty:before {
+  content: "\e90a";
+}
+.pdd-empty_fill:before {
+  content: "\e90b";
+}
+.pdd-homepage:before {
+  content: "\e90c";
+}
+.pdd-homepage_fill:before {
+  content: "\e90d";
+}
+.pdd-kechengbiao:before {
+  content: "\e90e";
+}
+.pdd-lock:before {
+  content: "\e90f";
+}
+.pdd-lock_fill:before {
+  content: "\e910";
+}
+.pdd-mail:before {
+  content: "\e911";
+}
+.pdd-mail_fill:before {
+  content: "\e912";
+}
+.pdd-mobilephone:before {
+  content: "\e913";
+}
+.pdd-mobilephone_fill:before {
+  content: "\e914";
+}
+.pdd-narrow:before {
+  content: "\e915";
+}
+.pdd-people:before {
+  content: "\e916";
+}
+.pdd-people_fill:before {
+  content: "\e917";
+}
+.pdd-picture:before {
+  content: "\e918";
+}
+.pdd-picture_fill:before {
+  content: "\e919";
+}
+.pdd-qrcode_fill:before {
+  content: "\e91a";
+}
+.pdd-return:before {
+  content: "\e91b";
+}
+.pdd-scan:before {
+  content: "\e91c";
+}
+.pdd-search:before {
+  content: "\e91d";
+}
+.pdd-searchfill:before {
+  content: "\e91e";
+}
+.pdd-switch:before {
+  content: "\e91f";
+}
+.pdd-time:before {
+  content: "\e920";
+}
+.pdd-translation:before {
+  content: "\e921";
+}
+.pdd-trash:before {
+  content: "\e922";
+}
+.pdd-trash_fill:before {
+  content: "\e923";
+}
+.pdd-video:before {
+  content: "\e924";
+}

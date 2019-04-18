@@ -2,5 +2,7 @@ export default {
   homeCasual: [],
   homeNav: [],
   homeShopList: [],
-  recommendShopList: []
+  recommendShopList: [],
+  searchShopList: [],
+  userInfo: {}
 }

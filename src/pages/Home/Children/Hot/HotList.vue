@@ -29,10 +29,33 @@
 </template>
 
 <script>
+  import BScroll from 'better-scroll'
   import {mapState} from 'vuex'
   export default {
     computed: {
       ...mapState(['homeShopList'])
+    },
+    watch: {
+      homeShopList() {
+        this.$nextTick(()=> {
+          // this._Init_Scroll();
+        })
+      }
+    },
+    methods: {
+      _Init_Scroll() {
+        this.scroll = new BScroll('.hot-list',{
+          scrollY: true,
+          click: true
+        });
+
+        this.scroll.on('touchEnd',(pos) => {
+          console.log(pos.y);
+        })
+      }
+    },
+    mounted() {
+
     }
   }
 </script>

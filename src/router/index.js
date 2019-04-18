@@ -16,6 +16,10 @@ import Mbaby from './../pages/Home/Children/Mbaby'
 import Phone from './../pages/Home/Children/Phone'
 import Shoes from './../pages/Home/Children/Shoes'
 import UnderClothes from './../pages/Home/Children/UnderClothes'
+
+import Login from './../pages/Login/Login'
+
+
 Vue.use(Router)
 
 export default new Router({
@@ -24,7 +28,7 @@ export default new Router({
       path: '/home',
       component: Home,
       children:[
-        {path: "hot", component: Hot},
+        {path: "hot", component: Hot, meta: {showBottomTab: true}},
         {path: "dress", component: Dress},
         {path: "elec", component: Elec},
         {path: "general", component: General},
@@ -38,19 +42,28 @@ export default new Router({
     },
     {
       path: '/recommend',
-      component: Recommend
+      component: Recommend,
+      meta: {showBottomTab: true}
     },
     {
       path: '/search',
-      component: Search
+      component: Search,
+      meta: {showBottomTab: true}
     },
     {
       path: '/chat',
-      component: Chat
+      component: Chat,
+      meta: {showBottomTab: true}
     },
     {
       path: '/me',
-      component: Me
+      component: Me,
+      meta: {showBottomTab: true}
+    },
+    {
+      path: '/login',
+      component: Login,
+      meta: {showBottomTab: false}
     },
     {
       path: '/',

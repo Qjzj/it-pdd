@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'pddIcon';
+  src:  url('fonts/pddIcon.eot?s3n5xb');
+  src:  url('fonts/pddIcon.eot?s3n5xb#iefix') format('embedded-opentype'),
+    url('fonts/pddIcon.ttf?s3n5xb') format('truetype'),
+    url('fonts/pddIcon.woff?s3n5xb') format('woff'),
+    url('fonts/pddIcon.svg?s3n5xb#pddIcon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="pdd-"], [class*=" pdd-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'pddIcon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.pdd-daifahuo:before {
+  content: "\e900";
+}
+.pdd-daifukuan:before {
+  content: "\e901";
+}
+.pdd-daipingjia:before {
+  content: "\e902";
+}
+.pdd-daishouhuo:before {
+  content: "\e903";
+}
+.pdd-dizhi:before {
+  content: "\e904";
+}
+.pdd-haofangtuoiconfont_dianpushoucang:before {
+  content: "\e905";
+}
+.pdd-hongbao:before {
+  content: "\e906";
+}
+.pdd-icon_save:before {
+  content: "\e907";
+}
+.pdd-icon3:before {
+  content: "\e908";
+}
+.pdd-liwu:before {
+  content: "\e909";
+}
+.pdd-pingjia:before {
+  content: "\e90a";
+}
+.pdd-pingjia_1:before {
+  content: "\e90b";
+}
+.pdd-service_icon:before {
+  content: "\e90c";
+}
+.pdd-share:before {
+  content: "\e90d";
+}
+.pdd-shezhi:before {
+  content: "\e90e";
+}
+.pdd-shoucang:before {
+  content: "\e90f";
+}
+.pdd-tuikuanguanli:before {
+  content: "\e910";
+}
+.pdd-youhuiquan:before {
+  content: "\e911";
+}
+.pdd-zuji:before {
+  content: "\e912";
+}
+.pdd-zuji_1:before {
+  content: "\e913";
+}
